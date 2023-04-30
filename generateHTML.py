@@ -1,5 +1,5 @@
 # import filter1 from filter1.py
-# import filter2 from filter2.py
+from age_filter import filter_by_age
 # import filter3 from filter3.py
 import webbrowser
 
@@ -48,7 +48,7 @@ data = [{
 ]
 
 # data = filter1(data, "masculino") #apenas masculinos
-# data = filter2(data, "18") #apenas acima de 18 anos
+data = filter_by_age(18, data) # apenas 18 anos ou mais
 # data = filter3(data, "4C") #apenas da turma 4C
 
 f = open('generated.html','w')
