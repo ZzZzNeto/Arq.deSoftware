@@ -1,4 +1,4 @@
-import filter1 
+from filter1 import filter1 
 # import filter2 from filter2.py
 # import filter3 from filter3.py
 import webbrowser
@@ -47,7 +47,7 @@ data = [{
 },
 ]
 
-data = filter1.filter1(data, "masculino") #apenas masculinos
+data = filter1(data, "masculino") #apenas masculinos
 # data = filter2(data, "18") #apenas acima de 18 anos
 # data = filter3(data, "4C") #apenas da turma 4C
 
